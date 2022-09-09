@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  background-color: #0967d219;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  padding: 10px;
+  background-size: cover;
+  display: flex;
+  font-weight: 700;
+  flex-direction: column;
+  justify-content: start;
+  font-family: "Roboto";
+}
+
+@media (min-width: 576px) {
+  .main-container {
+    background-color: orange;
+  }
+}
+@media (min-width: 992px) {
+  .main-container {
+    background-color: greenyellow;
+  }
+}
+@media (min-width: 1200px) {
+  .main-container {
+    background-color: blue;
+  }
+}
+
+.inside-container {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  padding: 15px;
+}
+
+@media (min-width: 992px) {
+  .wrap-one-two {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrap-three-four {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+.first-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+@media (min-width: 576px) {
+  .first-container {
+    background-color: #ebd081;
+  }
+}
+@media (min-width: 992px) {
+  .first-container {
+    background-color: #e481eb;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .first-container {
+    background-color: #3519d1;
+    color: white;
+  }
+}
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #0967d219;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+  .second-container {
+    background-color: #cdeb81;
+  }
+}
+@media (min-width: 992px) {
+  .second-container {
+    background-color: #81e4eb;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .second-container {
+    background-color: #460505;
+    color: white;
+  }
+}
+
+.third-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+  .wrap-three {
+    width: 50%;
+  }
+}
+
+.img1 {
+  background-color: green;
+  border-radius: 5px;
+  color: aliceblue;
+  padding: 25px;
+}
+
+@media (min-width: 576px) {
+  .img1 {
+    background-color: #86bfd1;
+  }
+}
+@media (min-width: 992px) {
+  .img1 {
+    background-color: #bd86d1;
+  }
+}
+@media (min-width: 1200px) {
+  .img1 {
+    background-color: #6a93c2;
+  }
+}
+
+.fourth-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e12d3919;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 576px) {
+  .fourth-container {
+    background-color: #81ebbd;
+  }
+}
+@media (min-width: 992px) {
+  .fourth-container {
+    background-color: #c7e27d;
+  }
+}
+@media (min-width: 1200px) {
+  .fourth-container {
+    background-color: #60ecc9;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrap-four {
+    width: 50%;
+  }
+}
+
+.doc-img {
+  width: 200px;
+  height: 100px;
+}
+.virus-image {
+  height: 80px;
+  width: 120px;
+}
